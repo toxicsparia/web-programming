@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> This is My Frist Program in HTML</title>
+    </head>
     <body>
+        <header>
+            <pre><p><b>Blog    Menu    About</b></p></pre>
+        </header>
+        <main>
         <h1>toxicsparia</h1>
         <h2>toxicsparia</h2>
         <h3>toxicsparia</h3>
@@ -18,9 +23,37 @@
         <br />
         <a href="/hello-world.html">HELLO WORLD</a>
         <br /> <br/>
+        <hr/><!--horizontal ruler-->
+        <br/><br/>
+        <a href="contact-me.html" target="_main"><b><i>Contact Me</i></b></a>
+        <br/><br/>
         <hr/>
+        <br/><br/>
         <img src="https://upload.wikimedia.org/wikipedia/en/a/a8/HELLOWORLD.jpg" alt="Hello World"/>
-        <hr/>
+        <br />
+        <br />
+        <section><!--We can convert our website's content in different section for better SEO Ranking-->
+        <a href="https://github.com/toxicsparia"> BLOG <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="BLOG"/>
+        </a> <!--Clickable image link-->
+        </section>
+
+        <br /> <br/>
+              <section>
+        <a href="https://github.com/toxicsparia" target="_main"> <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="MENU"/> <!--The name of the alt tag will be show when image link not working-->
+            <!--The target _main tag is for open the link in a new tab-->
+        </a>
+        </section>
+
+        <br/> <br/>
+
+              <section>
+        <a href="./hello-world.html" target="_main"> <big><b>ABOUT</b></big>
+        <img src="https://vioar.github.io/about.jpeg" width="200" alt="ABOUT"/><!--we can use width and height tag for changing the size of the image-->
+        </a>
+        </section>
+
+
+        <hr/><!--horizontal ruler-->
         <br/>
         <br/>
         <b>TOXICSPARIA</b> <!--This tag is for bold-->
@@ -45,9 +78,175 @@
         <p><big>H<sub>2</sub>O</big></p> <!--Sub is stand for subscript. The word in the sub will be appear at the bottom of the previous word-->
         <br/>
         <hr/>
-        
+        <pre><!--By default HTML didn't count our spaces or lines in paragraph <p> HTML will place it in a single line so if we want to add our lines and spaces into the paragraph we should've to use <pre> tag;;;-->
+            <big> <b><i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos impedit vitae nobis
+                praesentium dicta natus suscipit quibusdam beatae iure minus maxime illo officiis itaque, labore sunt laudantium
+                error. Tempore?
 
+            </i></b></big>
+            </pre>
+            <!--Word wrap for give structure to the line-->
+            <br/><br/>
+            <article><pre><big><b>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ratione, dolor necessitatibus tempore odio
+                nemo dolores illo nesciunt ducimus aspernatur quas saepe. Ex dolore et possimus modi tempora fugit nobis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit rem facere. Temporibus asperiores nihil qui
+                quidem laborum, unde dignissimos officiis delectus. Accusamus nam illo assumenda, ducimus libero minus porro!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quas qui soluta id ipsa officiis, dolorum quia! 
+                Eligendi quia voluptas magnam ipsam, vero qui, doloribus tempore dolorum corporis facere exercitationem?
+                </b></big></pre>
+            </article><!--we can use article tag for writing articles like news, blog or something else-->
+            <br/><br/>
+            <hr/>
 
+            <aside>
+                <!--This tag is for showing those things those aren't part of our website like google ads or anything else-->
+            </aside>
+
+            <div><p>Div is a block elements (takes full width)</p></div>
+            <div>
+                <pre>
+                    Div just like a container that store data in a block.
+                    Div just like a container that store data in a block.
+                    Div just like a container that store data in a block.
+                    Div just like a container that store data in a block.
+                    Div just like a container that store data in a block.
+
+                </pre>
+            </div>
+            
+                <!--span is also a container but it takes space as per size.-->
+                Hello World
+                
+            </span>
+
+            <ul><!--UL stands for unordered list. This is for create list in bullet points-->
+                <li>Laptop</li> <!--LI stands for List. use this for list-->
+                <ul><!--We can create a sublist under a list-->
+                    <li>Keyboard</li>
+                    <li>Mouse</li>
+                    <li>SSD</li>
+                </ul>
+                <li>Monitor</li>
+                <li>CPU</li>
+            </ul>
+            <br/>
+            <br/>
+            <ol><!--OL stands for ordered list. This is for create list in Numbers, characters or roman numerals-->
+                <li>Laptop</li> <!--LI stands for List. use this for list-->
+                <ol type="a"><!--We can create a sublist under a list-->
+                    <li>Keyboard</li>
+                    <li>Mouse</li>  
+                    <li>SSD</li>
+                </ol>
+                <li>Monitor</li>
+                <li>CPU</li>
+            </ol>
+            <!--
+    a for lowercase letters
+    A for uppercase letters
+    i for lowercase Roman numerals
+    I for uppercase Roman numerals
+    1 for numbers (default)
+-->
+            <!--Tables in HTML-->
+            <table>
+                <caption>
+                    student data <!--Adding caption-->
+                </caption>
+                <thead> <!--Table head is for define the header layout-->
+                <tr> <!--tr stands for table row.-->
+                    <th>NAME</th><!--th means table header-->
+                    <th>DOY</th>
+                    <th>COUNTRY</th>
+                </tr>
+                </thead>
+                <tbody> <!--Table body is for define data layout-->
+                <tr>
+                    <td>ELON MMUSK</td><!--table data-->
+                    <td>2026</td>
+                    <td>AMERICA</td>
+                </tr>
+                </tbody>
+            </table>
+            <br/>
+            <br/>
+                        <!--Tables in HTML-->
+            <table>
+                <caption>
+                    student data <!--Adding caption-->
+                </caption>
+                <thead> <!--Table head is for define the header layout-->
+                <tr> <!--tr stands for table row.-->
+                    <th colspan="3"><!--TABLE HEADER colspan for marging the rows. colspan = how many rows have to marge-->
+                        INFORMATION
+                    </th>
+                </tr>
+                </thead>
+                <tbody> <!--Table body is for define data layout-->
+                <tr>
+                    <td>ELON MMUSK</td><!--table data-->
+                    <td>2026</td>
+                    <td>AMERICA</td>
+                </tr>
+                </tbody>
+            </table>
+            <br/>
+            <br/>
+            <form action="/action.php">
+                <h4>Enter username and password</h4>
+                <input type="text" placeholder="admin"><br/><br/>
+                <input type="password" placeholder="password">
+                <br/><br/>
+                <h4>Select your class</h4>
+                <label for="101">
+                <input type="radio" value="class XI" name="class" id="101">Class XI<!--radio type input for single choice inputs-->
+                </label>
+                <br/><br/>
+                <label for="102"><!--label for cmd use for get choose by just click on text it's not mandatory to click on the box.-->
+                <input type="radio" value="class XII" name="class" id="102">Class XII
+                </label>
+                <br/>
+                <h4>Select your fav subjects</h4>
+                <br/>
+                <label for="01">
+                    <input type="checkbox" value="Math" name="Subject" id="01">Math
+                </label><br/>
+                <label for="02">
+                    <input type="checkbox" value="Chemistry" name="Subject" id="02">Chemistry
+                </label><br/>
+                <label for="03">
+                    <input type="checkbox" value="Computer Science" name="Subject" id="03">Computer Science
+                </label>
+                <br/><br/>
+                <h4>select state</h4>
+                <select name="Select State" id="01"><!--This tag is use for dropdown menu-->
+                    <option value="West Bengal">West Bengal</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                </select>
+                <br/><br/>
+                <textarea name="Feedback" placeholder="Enter your feedback here" rows="10" cols="50"></textarea>
+            <!--Text area mainly use for user feedback or comment-->
+            <br/><br/>
+            <input type="submit" value="submit"> <!--the sbmit input type is use for submit the form-->
+            </form> 
+            <br/><br/>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WqOXxoGSpbs?si=_JbA5z9PwrB7qNVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!--iframe is use for embed anoter video or webiste in own websit--><br/><br/>
+
+            <vid src="/myvid.mov" width="560" height="315" controls autoplay loop/>
+
+            <div id="001" class="group 1">
+
+            </div>
+            <div id="002" class="group 1">  <!--there's both div like two separate container holding differend data 001 & 002 but they have in a big container group 1.-->
+
+            </div>
+            
+        </main>
+        <footer><h4>contact me:- hello@world.com</h4></footer>
         <br/>
         <hr/>
         <br/>
