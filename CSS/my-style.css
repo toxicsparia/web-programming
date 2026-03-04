@@ -1,0 +1,21 @@
+/*External stylesheet*/
+
+h1 {
+    color:brown;
+}
+pre {
+    color:yellowgreen;
+}
+p{
+    color:palegreen;
+}
+body{
+    background-color:wheat;
+}
+input{
+    color:red;
+    background-color:green;
+}
+h4{
+    color:rgb(255,0,255) /*This is the rgb color value mixing. maximum 255.*/
+}
