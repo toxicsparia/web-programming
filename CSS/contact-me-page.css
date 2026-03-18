@@ -1,3 +1,7 @@
-body {
-    background-color: #ff0000; /*hex value = ff means full and 00 means nothing (rgb format).*/
+*{
+    color:coral; /*This is called universel selector this would be change the color of whole website;*/
+    background-color:antiquewhite;
+}
+header {
+    color: blue; /*this type of selector is called elemantary selector*/
 }

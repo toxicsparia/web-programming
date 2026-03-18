@@ -1,0 +1,22 @@
+.classOne {
+    color:brown;/* Changing color of all elements present in the classOne*/
+}
+*{
+    background-color:azure; /*Universel selector this will change the color of whole page/ all elements/ all tags*/
+}
+article{
+    color:red; /*This is tag selector, changing color through tags*/
+}
+#h01{
+    color:blue; /*changing color using id;*/
+}
+#h02 {
+    color:blue;
+}
+#h03{
+    color:violet;
+}
+#clickme{
+    color:blue;
+    background-color: red;
+}

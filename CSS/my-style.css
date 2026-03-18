@@ -19,3 +19,9 @@ input{
 h4{
     color:rgb(255,0,255) /*This is the rgb color value mixing. maximum 255.*/
 }
+#heading1 {
+    color: red; /*This is to pass color using unique id*/
+}
+#heading2 {
+    color: green;
+}
