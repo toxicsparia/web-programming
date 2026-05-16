@@ -1,6 +1,109 @@
-h1{
+h1{ /*element selector*/
     color:red;
 }
-body{
-    background-color:yellow;
+
+
+/*Id selector.. We should give unique id for one selector... (Good programming habbit)..
+If we need to use same style for multiple elements then we should use the class attributes*/
+#C1{
+    color:black;
+    background-color:white;
 }
+
+#C2{
+    color:white;
+    background-color:black;
+    font-weight:lighter;
+}
+
+button{
+    color: #ffff00;
+}
+
+.ClassA{
+    color:white;
+    background-color: red;
+}
+
+#box{
+    background-color:blue;
+}
+
+.ClassX{
+    color:red;
+}
+
+#button1{
+    color:green;
+}
+
+#set1{
+    color:brown;
+    text-align:center;
+    text-decoration:blue wavy underline;
+}
+
+#lorem1{
+    font-family:monospace;
+    text-align:center;
+    text-decoration:underline;
+    font-size:30px;
+    line-height:70px;
+}
+
+#lorem2{
+    background-color:aqua;
+    text-transform:uppercase;
+}
+
+#lone{
+    text-align:center;
+    text-transform:capitalize;
+}
+#llorem{
+    font-family:'Times New Roman', Times, serif;
+}
+
+#outer{
+    font-size:25px;
+}
+#inner{
+    font-size:10px;
+}
+
+/*
+1. Universel selector = *{properotiy:value pair}
+
+2. Elements selector = elements{pair} ...
+
+3. ID selector = #MyID{pair} ...
+
+4. class selector = .class{pair}
+
+5. alignment..
+element{text-align:left/center/right...);
+if our language is English or starts with left..
+then If we give cmd like text-align:start; // then it would be consider as left.. and text-align:end this would be consider as right..
+
+But if our language is like Arabic or Urdu that starts with right side... then text-align:start means right alignment.. and text-align:end means left alignment..
+
+6. Text Decoration
+We can decorate our paragraph or texts into many ascpects like none/  underline, overline, line-through, dotted / wavy and many things we can refer into the mdn website for learn more things...
+we can check into the #set1.. I had needed a blue wavy underline and I got it..
+
+7. text-properties../ font-weight..
+font-weight --- we can use this for set our text font's boldness or lightness.. tags like... normal / bold / bolder / lighter..
+font-weight value are from 100 to 900... we can adjust this value..
+check #C2 id...
+
+8.font-family..
+we can use fant family to change the font of the texts... #lorem1 #llorem.. we can use multiple font family at once.. precedence left to right..
+
+9. font-size.. change size in pixel.. #lorem1 tag
+
+10. line-height:px... we can change line height with this.... #lorem1..
+
+11. text-transform.... this can change the cases of text like uppercase/ lowercase / capitalize etc..
+
+12. 
+*/
