@@ -1,6 +1,6 @@
 *{
-    color:coral; /*This is called universel selector this would be change the color of whole website;*/
-    background-color:antiquewhite;
+    color:cyan; /*This is called universel selector this would be change the color of whole website;*/
+    background-color:red;
 }
 header {
     color: blue; /*this type of selector is called elemantary selector*/
