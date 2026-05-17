@@ -186,6 +186,27 @@ we can use fant family to change the font of the texts... #lorem1 #llorem.. we c
     font-size:xx-large;
     font-family:monospace;
 }
+#l3{
+    text-transform:uppercase;
+    color:blueviolet;
+    background-color:black;
+    font-size:xx-large;
+    font-family:monospace;
+}
+#aset5{
+    text-transform:uppercase;
+    color:blueviolet;
+    background-color:black;
+    font-size:xx-large;
+    font-family:monospace;
+}
+#flexbox{
+    text-transform:uppercase;
+    color:blueviolet;
+    background-color:black;
+    font-size:xx-large;
+    font-family:monospace;
+}
 
 
 /*

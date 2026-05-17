@@ -1,0 +1,49 @@
+body{
+    background-image: url(img/image.jpg);
+    background-size:cover;
+    /* mainly we have 3 types of bg size for images cover, container and auto(default)... cover will cover the image according to the size
+    but container will cover the photo and if the photo size is small then the photo will be duplicate..
+    and auto is the default one. */
+}
+#dp{
+    font-size:20%;
+    width:100vw;
+    /* means 20% of the parent elements.. */
+    background-color:pink;
+    position:fixed;
+    top:0;
+}
+
+#dp1{
+    font-size:2em;
+    /* means double size of the parent element. */
+}
+
+#dp2{
+    font-size:.5rem;
+    /* means half of the size of the root element It's body. */
+    background-color:black;
+    color:white;
+}
+#dp3{
+    height:50vh;
+    background-color:rgba(255,0,0,.35)
+    /* 50vh means 50% of the monitor/display's size */
+}
+#dp4{
+    width:100vw;
+    background-color: rgba(255,255,0,.35);
+    /* 100 vw means 100%of the display width */
+    /* position:fixed; */
+    bottom:0;
+}
+#p1{
+    background-color:cyan;
+    position:sticky;
+    top:20px;
+    /* that means this will stick in the top 10px once it hits this position */
+}
+#l100{
+    z-index: 1;
+    /* by default the z index is 0.. and this is precedence controller what things we need to display on top and whcih item should overlap.. */
+}

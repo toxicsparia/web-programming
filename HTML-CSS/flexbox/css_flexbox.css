@@ -1,0 +1,117 @@
+#div1{
+    height:300px;
+    width:75vw;
+    border:5px solid black;
+    display:flex;
+    /* flexbox declaration */
+    /* flex-direction: row-reverse; */
+    /* flex-direction:row/row-reverse/column/column-reverse.. these properties.. this will try to containts in the container... */
+
+    /* some flexbox properties.. 
+    flex-start = by default this is left to right..
+    flex-end = shift all the elements in the end... not reverse...
+    center = all the elements into center
+    space-around = distribute elements with spaces into the whole width..
+    space-between = distribute elements with spaces but the first and last elements are set into the border..
+    space-evenly = distribute elements with spaces into the whole width evenly..
+
+    */
+    flex-direction: row;
+    justify-content:space-between;
+
+    /* align-items & align-container...
+    first we need to wrap the text...
+    with flex-wrap:wrap;
+
+    align-items = align the items into the cross axis with the spaces between...
+    align-content = align the items into the cross axis with ignore the spaces.. */
+/* 
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center; 
+    
+    flex-grow = grow and fill the div or container.. value we can set the value for multiple elements to grow and with the specific speed..
+    flex-shrink = reverse of flex-grow..
+    
+    */
+
+}
+#d1{
+    height:100px;
+    width:100px;
+    border:5px solid black;
+    background-color:aqua;
+    margin:5px;
+    display:inline-block;
+    /* flex-grow: 1; */
+
+    /* align-self:flex-end;
+    align-self = align just a single conteiner. self?...  */
+}
+#d2{
+    height:100px;
+    width:100px;
+    border:5px solid black;
+    background-color: aquamarine;
+    margin:5px;
+    display:inline-block;
+    /* flex-grow: 1; */
+}
+#d3{
+    height:100px;
+    width:100px;
+    border:5px solid black;
+    background-color: burlywood;
+    margin:5px;
+    display:inline-block;
+}
+#d4{
+    height:100px;
+    width:100px;
+    border:5px solid black;
+    background-color: brown;
+    margin:5px;
+    display:inline-block;
+}
+#d5{
+    height:100px;
+    width:100px;
+    border:5px solid black;
+    background-color: violet;
+    margin:5px;
+    display:inline-block;
+}
+
+#navbar{
+    display:flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: space-evenly;
+}
+.list{
+    list-style-type: none;
+    background-color: cadetblue;
+}
+.alist{
+    text-decoration:none;
+}
+
+
+#divc1{
+    height:300px;
+    width:300px;
+    background-color:red;
+    /* giving height width and bg color to the eliment */
+    /* giving the display flex to use flexbox. direction row and warp the container to move it freely.. and justify to the center to move it to the center of the row.. */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* we know that align items and align content works on cross axis and we need to allign it on the cross axis for center the box */
+    align-items: center;
+}
+#divc2{
+    height:70px;
+    width:70px;
+    background-color:yellow;
+}

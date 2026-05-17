@@ -1,0 +1,14 @@
+#d1{
+    color:white;
+    padding-left:10px;
+    padding-top:10px;
+    height:100px;
+    width:100px;
+    border:5x solid black;
+    border-radius:15px;
+    background-image:url(img/image.jpg);
+    background-size:cover;
+    position:fixed;
+    right:0px;
+    top:50px;
+}
