@@ -1,3 +1,6 @@
+body{
+    background-color:cadetblue;
+}
 h1{ /*element selector*/
     color:red;
 }
@@ -37,10 +40,10 @@ button{
     color:green;
 }
 
-#set1{
+.level{
     color:brown;
     text-align:center;
-    text-decoration:blue wavy underline;
+    text-decoration:blue dotted underline;
 }
 
 #lorem1{
@@ -105,5 +108,113 @@ we can use fant family to change the font of the texts... #lorem1 #llorem.. we c
 
 11. text-transform.... this can change the cases of text like uppercase/ lowercase / capitalize etc..
 
-12. 
+                                           level 2  -  The box model
+*/
+
+#l2div1{
+    height:auto;
+    width:auto;
+    background-color:aqua;
+    /* border-width:5px;
+    border-style:double;
+    border-color:black; */
+    text-align:center;
+    border:5px double black;
+    border-radius:25px;
+    /*
+    padding-top:10px;
+    padding-left:5px;
+    padding:50%; */
+
+    padding:15px 15px 15px 15px;
+    margin:15px;
+}
+
+#ps3q1{
+    height:100px;
+    width:100px;
+    background-color:green;
+    border-radius:50%;
+
+    text-align:center;
+    padding-top:50px;
+}
+
+#ama{
+    height:60px;
+    color:white;
+    background-color:black;
+    border:7px solid white;
+}
+#amain{
+    font-size:25px;
+    font-weight:bold;
+    color:yellow;
+    text-align:left;
+    padding-left:10px;
+}
+#amasearch{
+    background-color:orange;
+}
+.amaclass{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right:200px;
+}
+
+.divclass{
+    height:100px;
+    width:100px;
+    background-color:green;
+    display:inline-block;
+}
+
+#alpha{
+    height:100px;
+    width:100px;
+    font-weight:bold;
+    background-color:rgba(255, 0, 0, .50);
+}
+
+#set4{
+    text-align:center;
+}
+
+#aset4{
+    text-transform:uppercase;
+    color:blueviolet;
+    background-color:black;
+    font-size:xx-large;
+    font-family:monospace;
+}
+
+
+/*
+1. #l2div1This is border things...
+2. we can do the same changes using a single tag border: width style color... like in #l2div1 border:5px double black;
+3. We also can make the corner shape in round using border radius.. #l2div1;
+4. padding: padding we use when we need some gaps between the content and the border area..
+    we can give padding individually like
+    padding-top: 15px;
+    padding-right:15px;
+
+    or we can also use shorthands like giving a single value to all sides like padding:15px;
+    or we can right values individually in a single line clockwise.. top,right,bottom,left;
+    padding:5px 10px 5px 10px; 
+5. Same things as padding for margin... margin is the area between two elements block 
+and padding is the area between content and border..
+
+6. .divclass... we know the by default div is a block eliment and this takes full width...
+    We can change this to inline using the display properties.
+    and same we can do it with inline elements like anchor tag / span.. convert it to a block elemtents....
+    but converting the block elements into inline elements with display:inline.. We will unable to use properties like height width and many more..
+    That's why we should use inline-block instead of just inline to convert block elements into inline elements..
+    display:none   we can use this to cancle out any elements from our webpage...
+    visibility:hidden also can use here
+    but the diffarances between visibility and display:none is that visibility just hides the elements but reserved the space for the element..
+    and the display:none compeletely remove the elements including the space..
+
+7.  Alpha Channel.. #alpha.. 
+    alpha channel use for set opacity for the colors. the value of alpha channel is 0 to 1..
+    syntax: rgba(r, g, b, a);
+
 */
