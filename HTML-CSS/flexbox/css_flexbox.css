@@ -115,3 +115,125 @@
     width:70px;
     background-color:yellow;
 }
+#dm1{
+    height:500px;
+    width:500px;
+    border:5px solid black;
+}
+@media(max-width:300px){
+    #dm1{
+        background-color:green;
+    }
+}
+@media(min-width:300px) and (max-width:400px){
+    #dm1{
+        background-color:pink;
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    #dm1{
+        background-color:red;
+    }
+}
+@media(min-width:600px){
+    #dm1{
+        background-color:blue;
+    }
+}
+/* This is like if else program... like
+if the min-width:600px do this..
+if the max-width:500px do this..
+if the min-width:200px and max-width 500px do this...
+syntax: @media(condition) if we want to make multiple condition then we can use 'and' keyword... and (another condition){
+    tag or id or class{
+        do this///
+    }
+} */
+
+/* effects */
+
+#d1:hover, #d2:hover, #d3:hover, #d4:hover, #d5:hover{
+    background-color:black;
+    color:white;
+    transition-property: all;
+    transition-duration:.3s;
+}
+#div1:hover{
+    background-color:red;
+}
+#d1:active{
+    background-color:wheat;
+    color:blueviolet;
+    transform:rotate(45deg);
+}
+
+
+/* transitions */
+
+/* transition-property: proparty that we want to change like font size/bg colr/text color anything else;
+transition-duration: duration of the animation..
+transition-timing-function: like- ease in/out, linear, steps etc...
+transition-delay-- delay time after the condition true the... 
+transition shorthand--
+transition:property duratioin timing-function delay
+*/
+
+/* transform */
+
+/* transform:rotate(45deg) this is the syntax for rotation 
+also we can rotate using x,y and z axis..
+rotate: x 180deg;
+transform scale(x,y);
+transform scaleX/Y:(n);
+transform:translateX/Y/-X/-Y(n px); move the elements...
+transform:skew means a squizing from two opposite corner
+*/
+
+#d2:hover{
+    transition-duration: .65s;
+    transform:scale(1.50);
+}
+#d3:hover{
+    transform:skew(15deg);
+}
+#d3:active{
+    transform:translateY(-50px);
+}
+
+/* animation */
+
+/* syntax..  
+@keyframe name{
+    from{x};
+    to(y);
+}
+
+keyframe properties...
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count
+animation-direction */
+
+@keyframes loading{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+}
+
+#loaderflex{
+    display:flex;
+    justify-content: center;
+}
+#loader{
+    height:50px;
+    width:50px;
+    border-top:5px dotted black;
+    border-radius:50%;
+    animation-name:loading;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+}
